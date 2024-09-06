@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "CRUD_employee_operation.Controllers.EmployeesController",
+    "Method": "GetAllEmployees",
+    "RelativePath": "api/employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CRUD_employee_operation.DTO.EmployeeDTO, CRUD-employee-operation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CRUD_employee_operation.Controllers.EmployeesController",
+    "Method": "CreateEmployee",
+    "RelativePath": "api/employees",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createEmployeeDto",
+        "Type": "CRUD_employee_operation.DTO.CreateUpdateEmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_employee_operation.Controllers.EmployeesController",
+    "Method": "GetEmployeeById",
+    "RelativePath": "api/employees/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_employee_operation.Controllers.EmployeesController",
+    "Method": "UpdateEmployee",
+    "RelativePath": "api/employees/{employeeId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "employee",
+        "Type": "CRUD_employee_operation.DTO.CreateUpdateEmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_employee_operation.Controllers.EmployeesController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/employees/{employeeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
