@@ -3,5 +3,7 @@ Creating simple program using .NET c#, creating CRUD api with in memory not used
 The API's such as 
 1. Get All data employees
 2. Add employees data , with payloads (fullName and birthDate -> format dd-mm-yyyy
-3. Update, with payloads (fullName and birthDate -> format dd-mm-yyyy
-4. Delete employee by employee id
+   containing validation such as , fullName must exist, format date must dd-mm-yyyy
+4. Update, with payloads (fullName and birthDate -> format dd-mm-yyyy
+   containing validation such as , fullName must exist, format date must dd-mm-yyyy
+6. Delete employee by employee id
